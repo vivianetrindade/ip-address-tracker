@@ -12,7 +12,7 @@ public class GeocodingController {
     @RequestMapping("/geocoding")
     @ResponseBody
     private GeocodingResponse getGeocoding() {
-        String uri = "https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=AIzaSyCCSGKB4AXZmdphF-h6NQk9eLXu16-limg";
+        String uri = "https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=";
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject(uri, GeocodingResponse.class);
     }
