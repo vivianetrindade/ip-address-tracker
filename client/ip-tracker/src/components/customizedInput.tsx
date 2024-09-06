@@ -5,10 +5,10 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 const CustomizedInput = () => {
   return (
     <Paper
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+      className='responsive-paper'
     >
       <InputBase placeholder="Search for any IP address or domain" fullWidth 
-        sx={{ flexGrow: 1, fontSize: '18px' }}
+        sx={{ flexGrow: 1, fontSize: '18px', width: '50%' }}
       />
       <Button
         aria-label="search"
@@ -20,6 +20,7 @@ const CustomizedInput = () => {
           margin: '-4px -5px',
           borderTopLeftRadius: 0,
           borderBottomLeftRadius: 0,
+          border: '2px solid black',
         }}
       >
         <ArrowForwardIosIcon style={{ color: 'white' }} />

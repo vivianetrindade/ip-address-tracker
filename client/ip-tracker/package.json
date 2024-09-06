@@ -16,6 +16,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.0.0",
     "@mui/material": "^6.0.0",
+    "@vis.gl/react-google-maps": "^1.1.1",
     "eslint-plugin-react": "^7.35.0",
     "framer-motion": "^11.3.30",
     "react": "^18.3.1",

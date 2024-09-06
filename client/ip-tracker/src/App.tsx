@@ -3,6 +3,7 @@ import mobileBackground from './assets/pattern-bg-mobile.png'
 import desktopBackground from './assets/pattern-bg-desktop.png'
 import CustomizedInput from './components/customizedInput'
 import './App.css'
+import MapComponent from './components/MapComponent'
 
 function App() {
   return (
@@ -18,12 +19,15 @@ function App() {
           <h1 className="title">IP Address Tracker</h1>
           <CustomizedInput />
         </div>
+        <MapComponent />
       </div>
-      <h1>Vite + React</h1>
+      <div>
+      </div>
+      {/* <h1>Vite + React</h1>
 
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }

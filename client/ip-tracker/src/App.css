@@ -20,21 +20,44 @@
   object-fit: cover;
 }
 
+.responsive-paper {
+  width: 60%;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .responsive-background {
     content: url('./assets/pattern-bg-desktop.png');
     width: 100%;
   }
+
+  .responsive-paper { 
+    width: 50%;
+  }
+
+  .card {
+    top: 6%;
+    left: 50%;
+  }
 }
 
-.card {
-  position: absolute;
-  top: 6%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  text-align: center;
-}
+
 
 .read-the-docs {
   color: #888;
